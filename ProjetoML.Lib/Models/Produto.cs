@@ -1,4 +1,4 @@
-namespace ProjetoML.Lib
+namespace ProjetoML.Lib.Models
 {
     public class Produto
     {
@@ -8,6 +8,8 @@ namespace ProjetoML.Lib
         public double Valor { get; set; }
         public DateTime DataCadastro { get; set; }
         public int IdVendedor { get; set; }
+        public Vendedor Vendedor { get; set; }
+        public List<ProdutosXPedidos> ProdutosXPedidos { get; set; }
         public Produto(int id, string nome, string descricao, double valor, DateTime dataCadastro, int idVendedor)
         {
             Id = id;

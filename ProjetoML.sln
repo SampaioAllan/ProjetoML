@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoML.Lib", "ProjetoML.Lib\ProjetoML.Lib.csproj", "{EC2D9848-FE1A-40AE-AE84-11ABBC878AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoML.Web", "ProjetoML.Web\ProjetoML.Web.csproj", "{A201F2BE-E312-45BB-858E-FFDEE72C0737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EC2D9848-FE1A-40AE-AE84-11ABBC878AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2D9848-FE1A-40AE-AE84-11ABBC878AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2D9848-FE1A-40AE-AE84-11ABBC878AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A201F2BE-E312-45BB-858E-FFDEE72C0737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A201F2BE-E312-45BB-858E-FFDEE72C0737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A201F2BE-E312-45BB-858E-FFDEE72C0737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A201F2BE-E312-45BB-858E-FFDEE72C0737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
